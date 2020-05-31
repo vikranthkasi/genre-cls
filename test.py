@@ -1,6 +1,10 @@
 # %%
 import boto3
 import os
+
+#changing path 
+os.chdir('./data')
+
 ACCESS_KEY = 'AKIASH5N5EHTPUNAMB2Y'
 SECRET_KEY = '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'
 session = boto3.resource('s3',
