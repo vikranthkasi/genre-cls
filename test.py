@@ -3,7 +3,7 @@ import boto3
 import os
 
 #changing path 
-os.chdir('./data')
+os.chdir('./artifacts')
 
 ACCESS_KEY = 'AKIASH5N5EHTPUNAMB2Y'
 SECRET_KEY = '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'
